@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 9;
+    box-shadow: 1px 1px 20px rgba(41, 40, 40, 0.445);
+    float: right;
+}
+#hello {
+    background-image: url(./makeup-products-equipment-flowers-pink-background-top-view-189523517.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./makeup-products-equipment-flowers-pink-background-top-view-189523517.jpg');
+    background-attachment: fixed;
+    
+    
+}
+.text {
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(65, 56, 56);
+    
+}
+.feature {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(114, 107, 107);
+    text-align: center;
+    padding: 50px;
+
+    
+}
+.fon {
+    transform: translateY(200px) translateX(200px);
+    padding: 50px;
+}
+.product {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(114, 107, 107);
+    text-align: center;
+    padding: 50px;
+
+}
+.contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(114, 107, 107);
+    text-align: center;
+    padding: 50px;
+}
+@media screen {
+    
+}
